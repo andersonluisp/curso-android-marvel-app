@@ -3,12 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/home"
-    android:label="@string/characters_screen_title"
     app:startDestination="@id/charactersFragment">
 
     <fragment
         android:id="@+id/charactersFragment"
         android:name="com.example.marvelapp.presentation.characters.CharactersFragment"
-        android:label="fragment_characters"
+        android:label="@string/characters_screen_title"
         tools:layout="@layout/fragment_characters" />
 </navigation>
