@@ -7,6 +7,7 @@ import com.example.core.domain.model.Character
 import com.example.marvelapp.framework.network.response.DataWrapperResponse
 import com.example.marvelapp.framework.network.response.toCharacterModel
 
+@Suppress("TooGenericExceptionCaught")
 class CharactersPagingSource(
     private val remoteDataSource: CharactersRemoteDataSource<DataWrapperResponse>,
     private val query: String
