@@ -1,4 +1,4 @@
-package com.example.core.usecase.base
+package com.example.usecase.base
 
 import kotlinx.coroutines.CoroutineDispatcher
 

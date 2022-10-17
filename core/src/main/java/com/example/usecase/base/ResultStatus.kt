@@ -1,4 +1,4 @@
-package com.example.core.usecase.base
+package com.example.usecase.base
 
 sealed class ResultStatus<out T> {
 
